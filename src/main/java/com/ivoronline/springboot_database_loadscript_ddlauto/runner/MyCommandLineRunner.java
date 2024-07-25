@@ -8,11 +8,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-public class InsertRecords implements CommandLineRunner {
+public class MyCommandLineRunner implements CommandLineRunner {
 
   //PROPERTIES
-  @Autowired
-  PersonRepository authorRepository;
+  @Autowired PersonRepository authorRepository;
 
   //=========================================================================================================
   // INSERT RECORDS
